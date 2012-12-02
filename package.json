@@ -1,0 +1,29 @@
+{
+  "name": "elasticsearch-bulk",
+  "version": "0.0.0",
+  "description": "Extends elasticsearch-client to support the bulk API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.tap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/othiym23/node-elasticsearch-bulk.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "indexing",
+    "search",
+    "client"
+  ],
+  "author": "Forrest L Norvell <ogd@aoaioxxysz.net> (http://github.com/othiym23)",
+  "license": "BSD",
+  "dependencies": {
+    "elasticsearchclient": "http://github.com/othiym23/node-elasticsearch-client/tarball/master"
+  },
+  "devDependencies": {
+    "tap": "~0.3.3",
+    "carrier": "~0.1.7",
+    "longjohn": "0.0.4"
+  }
+}
